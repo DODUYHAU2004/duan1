@@ -1,0 +1,186 @@
+
+        /* CSS cho menu */
+/* CSS cho menu */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li a:hover{
+    color:pink;
+}
+
+/* CSS cho sản phẩm */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    width: 30%;
+    margin: 20px 0;
+    border: 1px solid #e2e2e2;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product .product-info {
+    padding: 10px;
+    background: #fff;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.product:hover .buttons {
+    opacity: 1;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 5px;
+}
+
+.buttons a:hover {
+    background-color: #2980b9;
+}
+
+/* CSS cho footer */
+/* CSS cho footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left img {
+    width: 100%;
+}
+
+.card_1,
+.card_2,
+.card_3 {
+    margin-top: 10px;
+
+}
+
+.card_1 i,
+.card_2 i,
+.card_3 i {
+    margin-right: 10px;
+}
+
+.icons i {
+    margin-right: 10px;
+}
+
+.footer-right {
+    width: 50%;
+    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_2 a,
+.card_3 a {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+iframe {
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 320px;
+    height: 320px;
+    border: 0;
+}
+/* CSS cho header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* CSS cho main/products */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* CSS cho footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+    
